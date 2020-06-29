@@ -1,0 +1,93 @@
+.card_avatar
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid  #DADADA;
+  background-color: #FFFFFF;
+  width: 50%;
+  height: auto;
+  padding: 20px;
+
+}
+
+.card-text-avatar
+{  padding-left: 20px;
+}
+
+#cardCountMessageAndSeach,#cardInputNewMessage
+{
+display:flex;
+justify-content: left;
+align-items: center;
+border: 1px solid  #DADADA;
+background-color: #FFFFFF;
+width: 50%;
+height: auto;
+padding: 20px;
+}
+
+#new-message
+{
+  width: 95%;
+  margin-left: 5px;
+}
+
+
+#searchMessage
+{
+  width: 50%;
+  margin-left: 5px;
+}
+
+#btn-add,#btn-search
+{
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  color: #3498db;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  padding: 5px;
+}
+#btn-add:focus,#btn-search:focus
+{ outline:0;}
+
+#body-background
+{
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F6FA;
+  align-items: center;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+p
+{
+  font-family:'Open Sans', sans-serif;
+  margin: 0px;
+  font-size: 14px;
+
+}
+
+h6
+{
+  margin: 0px;
+  padding-bottom: 0px;
+  font-size: 14px;
+}
+
+.size-trash
+{
+  height: 15px;
+
+}
+
+.size-avatar
+{
+  height: 60px;
+  border-radius: 100px;
+}

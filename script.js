@@ -19,7 +19,7 @@ function()
 
 
   /* append Nom prenom h6*/
-  $(".card-text-avatar:last").append("<h6> henry Dupont</h6>");
+  $(".card-text-avatar:last").append("<h6>Henry Dupont</h6>");
 
 /*  append new text saisie p*/
 var newMessage = $("#new-message").val();
@@ -75,9 +75,7 @@ function(){
 
 }); */
 
-/*function search
-if( $inputSearch == $("h6")[i] )
-{ ;*/
+/*function search*/
 $("body").on('click','#btn-search',
   function(){
     var $inputSearch = $('#searchMessage').val();
@@ -85,8 +83,13 @@ $("body").on('click','#btn-search',
         function(){
           if ( $(this).text() != $inputSearch)
           {
-            $(this).parent().parent().css('display', 'none')
+            $(this).parent().parent().fadeOut()
 
           }
+          else {
+            $(this).parent().parent().show();
+
+          }
+  $('#searchMessage').val('');
     });
   });
